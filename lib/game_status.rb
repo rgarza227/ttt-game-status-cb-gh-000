@@ -35,4 +35,5 @@ end
 def full?(board)
   !board.detect{|i| i == "" || i == " "}
   board.select{|i| i == "X" || i == "O"}
+  
 end
