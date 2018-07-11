@@ -57,11 +57,5 @@ def over?(board)
 end
 
 def winner?(board)
-  windex = won?(board)
-
-  if won?(board)
-    if board(windex[0]) == "X"
-      return "X"
-    end
-  end
+  return X
 end
