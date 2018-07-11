@@ -37,10 +37,10 @@ def full?(board)
 
   board.each do |position|
     if position == "" || position == " "
-      false
+      full = false
     else
-      true
+      full = true
     end
   end
-  false
+  true
 end
