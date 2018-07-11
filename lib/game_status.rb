@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won(board)
-  for each win_combination in WIN_COMBINATIONS
+  WIN_COMBINATIONS.each |win_combination| do
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
@@ -33,5 +33,4 @@ def won(board)
     else false
     end
   end
-
 end
