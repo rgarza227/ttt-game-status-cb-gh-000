@@ -61,7 +61,7 @@ def winner?(board)
 
   if won?(board)
     if board(windex[0]) == "X"
-      "X"
+      return "X"
     end
   end
 end
