@@ -60,8 +60,10 @@ def winner?(board)
   won?(board).each do |i|
     if board[i] == "X"
       winner = "X"
-    else
+    elsif board[i] == "O"
       winner = "O"
+    else
+      winner = nil
     end
   end
   winner
