@@ -60,7 +60,7 @@ def winner?(board)
   if won?(board)
     index = won?(board)
     if board[index[0]] == "X"
-      retrun "X"
+      return "X"
     else
       return "O"
     end
