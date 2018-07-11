@@ -37,6 +37,6 @@ full = false
   if board.include?(" ")
     full = false
   end
-    
+
 
 end
