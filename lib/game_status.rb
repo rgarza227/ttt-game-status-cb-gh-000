@@ -42,4 +42,5 @@ def full?(board)
       true
     end
   end
+  false
 end
