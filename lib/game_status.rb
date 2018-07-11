@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-  !board.detect{|i| i == "" || i == " "}
-  board.select{|i| i == "X" || i == "O"}
-  
+
+  !board.include?(" ")
+
 end
