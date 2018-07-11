@@ -62,4 +62,5 @@ def winner?(board)
   else
     nil
   end
+  nil
 end
