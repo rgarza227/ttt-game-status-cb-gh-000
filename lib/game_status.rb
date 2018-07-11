@@ -31,3 +31,16 @@ def won?(board)
   end
   false
 end
+
+def full?(board)
+  full = false
+
+  board.each do |position|
+    if position == "" || position == " "
+      false
+    else
+      true
+    end
+  end
+end
+  
