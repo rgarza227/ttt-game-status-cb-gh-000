@@ -26,7 +26,7 @@ def won?(board)
     elsif board[win_combination[0]] == "O" &&  board[win_combination[1]]  == "O" &&  board[win_combination[2]]  == "O"
       return win_combination
     else
-      retrun false
+      return false
     end
   end
 end
