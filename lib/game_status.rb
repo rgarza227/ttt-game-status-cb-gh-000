@@ -66,6 +66,3 @@ def winner?(board)
   end
   winner
 end
-
-    
-    
