@@ -57,5 +57,9 @@ def over?(board)
 end
 
 def winner?(board)
-  "X"
+  if won?(board)
+    X
+  else
+    nil
+  end
 end
