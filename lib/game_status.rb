@@ -33,15 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-  full = false
-
-  board.each do |position|
-    if position == "" || position == " "
-      full = false
-    else
-      full = true
-    end
-    true
-  end
-  false
+  
+  board.detect{|i| i == "" || i == " "}
+    
 end
